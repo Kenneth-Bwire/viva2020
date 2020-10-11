@@ -12,5 +12,5 @@ class AdminStudent(admin.ModelAdmin):
     search_fields = ('name','age','email','website')
 
 admin.site.register(Student, AdminStudent)
-    
+
 #admin.site.register(Student)
